@@ -54,7 +54,7 @@ class _HomeScreensState extends State<HomeScreens> {
                     Provider.of<WeatherProveders>(context).cityname!.toUpperCase()!,
                     style: TextStyle(fontSize: 40, fontWeight: FontWeight.bold),
                   ),
-                  Text('update at : ${weatherdata!.date.hour}:${weatherdata!.date.minute}', style: TextStyle(fontSize: 30)),
+                  Text(  'update at : ${weatherdata!.date.hour}:${weatherdata!.date.minute}', style: TextStyle(fontSize: 30)),
                   Spacer(),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
